@@ -10,3 +10,5 @@ export interface EventItem {
   time: string
   organizer: string
 }
+
+export type EventList = EventItem[];
